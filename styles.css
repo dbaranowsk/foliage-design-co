@@ -1,0 +1,251 @@
+/*
+--Fonts--
+
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+ --Colors--
+
+background: rgba(69, 157, 11, 0.11);
+emphasis: rgba(48, 111, 6, 0.83);
+
+*/
+
+/* Universal Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(109, 159, 76);
+    color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 2px;
+}
+
+h2 {
+    font-size: 85px;
+    letter-spacing: 1.35;
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 4px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+caption {
+    font-size: 11px;
+    font-style: italic;
+}
+
+a {
+    color: rgba(48, 111, 6, 0.83);
+}
+
+/* header and navigation */
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+}
+
+#header ul {
+    list-style: none;
+}
+
+#header li {
+    display: inline-block;
+    margin: 5px 25px;
+}
+
+#header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* banner */
+
+#banner {
+    background-image: url(./images/john-duncan-osUkhti4cak-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    text-align: right;
+}
+
+.title {
+    position: relative;
+    top: 20%;
+    right: 11%;
+}
+
+.title h4 {
+    position: relative;
+    left: 5px;
+}
+
+/* mission */
+
+#mission {
+    height: 400px;
+    width: 100%;
+    margin: 50px auto;
+    background-color:rgba(48, 111, 6, 0.83);
+}
+
+#mission img {
+    width: auto;
+    height: 400px;
+}
+
+.left {
+    float: left;
+}
+
+.information {
+  text-align: center;
+}
+
+.information h3 {
+    font-size: 80px;
+    margin: 5px;
+    line-height: 1;
+}
+
+.information p {
+    font-size: 26px;
+    margin: 5px;
+    line-height: 1.5;
+}
+
+/* Employees */
+
+.employee-head {
+    display: block;
+    height: 200px;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.employee-head h3 {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    font-size: 100px;
+    letter-spacing: 3;
+}
+
+#employee {
+    height: 475px;
+    width: 100%;
+    margin: 75px auto;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url(./images/zan-r4QgKmKpDa0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portrait {
+    height: 300px;
+    width: 400px;
+    margin: 8px;
+    background-color: rgba(229, 250, 216, 0.25);
+}
+
+.portrait img {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.bio {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.bio h5 {
+    font-size: 35px;
+    letter-spacing: 1.2;
+    color:rgba(48, 111, 6, 0.83);
+}
+
+.bio p {
+    font-size: 22px;
+    line-height: 1.4;
+    color:rgb(109, 159, 76);
+}
+
+/* community */
+
+h3 {
+    font-size: 80px;
+    margin: 5px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#community {
+    height: 800px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photo {
+    height: 600px;
+    width: 400px;
+}
+
+.photo img {
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+
+/* contact */
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    letter-spacing: 2;
+}
